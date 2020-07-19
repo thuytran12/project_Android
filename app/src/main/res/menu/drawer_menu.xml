@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Danh sách sản phẩm">
+        <menu>
+            <item
+                android:id="@+id/menu1"
+                android:icon="@drawable/ic_favorite_24"
+                android:title="Tất cả"/>
+            <item
+                android:id="@+id/menu2"
+                android:icon="@drawable/ic_favorite_24"
+                android:title="Sữa rửa mặt"/>
+            <item
+                android:id="@+id/menu3"
+                android:icon="@drawable/ic_favorite_24"
+                android:title="Tẩy trang"/>
+            <item
+                android:id="@+id/menu4"
+                android:icon="@drawable/ic_favorite_24"
+                android:title="Dưỡng trắng"/>
+            <item
+                android:id="@+id/menu5"
+                android:icon="@drawable/ic_favorite_24"
+                android:title="Dưỡng ẩm"/>
+            <item
+                android:id="@+id/menu6"
+                android:icon="@drawable/ic_favorite_24"
+                android:title="Sữa tắm dưỡng ẩm"/>
+            <item
+                android:id="@+id/menu7"
+                android:icon="@drawable/ic_favorite_24"
+                android:title="Chống nắng"/>
+        </menu>
+    </item>
+
+
+
+</menu>

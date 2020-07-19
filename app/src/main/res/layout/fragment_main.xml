@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/txtall"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="TẤT CẢ"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:gravity="center"
+        android:background="@color/blue"
+        android:textColor="@color/pink"
+        android:textSize="30dp"/>
+    <EditText
+        android:id="@+id/editSearch"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:hint="Tên sản phẩm"
+        android:background="#36D5C6"
+        app:layout_constraintTop_toBottomOf="@+id/txtall"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_search_24"
+        app:layout_constraintTop_toBottomOf="@+id/txtall"
+        app:layout_constraintRight_toRightOf="parent"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/editSearch"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
